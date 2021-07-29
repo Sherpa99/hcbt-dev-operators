@@ -65,7 +65,7 @@ type MemcachedStatus struct {
 }
  ```
 4. Make changes in ` api/v1alpha1/memcached_types.go` by replacing the function with following code  </br>
- ```
+ ```console
  // Memcached is the Schema for the memcacheds API
 // +kubebuilder:subresource:status
 type Memcached struct {
@@ -94,17 +94,17 @@ type Memcached struct {
    ```
 ## Step 04 : Build and deploy your operator
 1. Build a operator image and push to docker registry
-```
+```console
 export USERNAME=<docker-username>
 make docker-build docker-push IMG=docker.io/$USERNAME/memcached-operator:v1.0.0
 ```
 2. Deploy the operator in ROKS cluster
-```
-$ make deploy IMG=docker.io/$USERNAME/memcached-operator:v1.0.0
+```console
+make deploy IMG=docker.io/$USERNAME/memcached-operator:v1.0.0
 ```
 ## Step 05 : Cleanup
 When you are done, clean the operator deployment in ROKS cluster
-```
+```console
 make undeploy
 
 ```
