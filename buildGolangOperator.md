@@ -7,7 +7,7 @@
 - [Docker](https://docs.docker.com/get-docker/?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-coursescognitiveclassai-SkillsNetworkCoursesIBMDeveloperSkillsNetworkCO0201ENSkillsNetwork23008840-2021-01-01) v3.2.2+ installed
 - Access to a Docker image repository such as [Docker Hub](https://hub.docker.com) or [quay.io](https://quay.io/) </br>
 - [Golang](https://golang.org/doc/install?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-coursescognitiveclassai-SkillsNetworkCoursesIBMDeveloperSkillsNetworkCO0201ENSkillsNetwork23008840-2021-01-01) v1.16.0+ installed
-
+- [Create Account](https://sso.redhat.com/auth/realms/redhat-external/login-actions/registration?client_id=https%3A%2F%2Fconnect.redhat.com%2Fsimplesaml%2Fwww%2Fmodule.php%2Fsaml%2Fsp%2Fmetadata.php%2Fdefault-sp&tab_id=-F6r3dMSGl0) in RedHat Connect Portal
 
 
 ## Step 01 : Create a project
@@ -28,8 +28,9 @@ Make a new directory in hour pc, and `init` a project in it.
 > Note: You might have to skip the version check.</br>
 4. Get controller runtime: </br>
       ```console
-       operator-sdk init --domain=example.com --repo=github.com/example/memcached-operator
+       go get sigs.k8s.io/controller-runtime@v0.8.3
       ```
+> Note: your runtime may be with different version.
 5. Update go.mod </br>
      ```console
        go mod tidy
