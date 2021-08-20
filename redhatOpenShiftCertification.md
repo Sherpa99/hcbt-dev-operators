@@ -5,37 +5,42 @@
 3. Support Coverage
 4. Partners Benefits
    - [Software Acess](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/software-access)
-   - Red Had Ecosystem Catalog
-     - [Listing best practices](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/about-the-catalog/listing-best-practices)
-     - [Marketing your listing](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/about-the-catalog/marketing-your-listing)
-     - [Catalog listings FAQs](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/about-the-catalog/catalog-listing-faqs)
+   - [Red Had Ecosystem Catalog](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/about-the-catalog)
    - [Using Red Hat Logos](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/using-red-hat-logos)
 
 ## Red Hat Partner Connect - General Program Guide for Partners
 Step 01 : Initial Onboarding 
+   - [Certification Workflow](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/program-on-boarding/certification-workflow)
    - [Register as a New Partner](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/initial-onboarding/register)
    - [Legal Agreements](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/initial-onboarding/legal-agreements)
    - [TSANet Memebership](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/initial-onboarding/tsanet)
    - [Export Complience](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/initial-onboarding/export-compliance)
+   - [Technical Prerequisites](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/program-on-boarding/technical-prerequisites)
+
 
 Step 02 : Managing Your Account
-   - [Companu Profile](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/managing-your-account/company-profile)
-   - Managing Users
-     - [Add users to your account](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/managing-your-account/managing-users/add-users)
-     - [Invite memebers to join](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/managing-your-account/managing-users/invite-members-to-join)
+   - [Company Profile](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/managing-your-account/company-profile)
+   - [Managing Users](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/managing-your-account/managing-users)
    - [Product Listings](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/managing-your-account/product-listing)
    - [Getting Help](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/managing-your-account/getting-help)
+   - [Request Container Zone access](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/program-on-boarding/request-container-zone-access)
 
-Step 03 : Certification offerings
-   - Red Hat Container Certification
-     - [Getting started](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/certification-offerings/red-hat-container-certification/getting-started)
-     - [Documentation & Support](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/certification-offerings/red-hat-container-certification/documentation-and-support)
-   - Red Hat OpenShift Operator Certification
-     - [Getting started](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/certification-offerings/red-hat-openshift-operator-certification-1/getting-started)
-     - [Documentation & Support]()
-   - [Red Had OpenShift Operator Bundle Certification](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/certification-offerings/red-hat-openshift-operator-certification-1/documentation-and-support)
+Step 04 : Container certification
+   - [Create a container application project](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-application/creating-a-container-application-project)
+   - [The Certification Checklist](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-application/the-certification-checklist)
+   - [Upload container image to be in registry.connect.redhat.com](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-application/image-upload)
+   - [Upload conatiner image to be published in Third Party Registries](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-application/remote-scan)
+   - [Image Scanning & Verification](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-application/image-scan-and-verification)
 
 
-## Managing
-  Learn more about [Redhat OpenShift Certification](https://connect.redhat.com/en/partner-with-us/red-hat-openshift-certification)
-##### Red Hat Universal Base Image
+Step 05 : Operator certification
+   - [Create Container Project](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-operator/creating-an-operator-project/creating-container-project)
+   - [The Certification Checklist](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-operator/creating-an-operator-project/the-certification-checklist)
+   - [Upload your Operator Image](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-operator/creating-an-operator-project/image-upload)
+   - [Image Scanning and Verification](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-operator/creating-an-operator-project/image-scan-and-verification-results)
+
+Step 06 : Operator bundle certification
+   - [Create Operator Bundle Image Project](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-operator/certify-your-operator-bundle-image/creating-operator-bundle-image-project)
+   - [The Certification Checklist](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-operator/certify-your-operator-bundle-image/the-certification-checklist)
+   - [Upload your Operator Bundle Image](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-operator/certify-your-operator-bundle-image/uploading-your-operator-bundle-image)
+   - [Bundle Image Scan & Results](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-operator/certify-your-operator-bundle-image/metadata-scan-and-results)
