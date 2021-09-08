@@ -7,9 +7,10 @@
 5. Marketing Benefit
 6. Application Automation
 7. Continuous Certification
-9. Partners Benefits
-   - [Software Acess](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/software-access)
+9. Partners Benefits:
    - [Red Had Ecosystem Catalog](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/about-the-catalog)
+   - [Software Acess](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/software-access)
+   - [Listing Best Practices](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/about-the-catalog/listing-best-practices)
    - [Using Red Hat Logos](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/using-red-hat-logos)
 
 ## Red Hat Partner Connect - General Program Guide for Partners
