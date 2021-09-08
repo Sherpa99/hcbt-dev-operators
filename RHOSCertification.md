@@ -1,5 +1,6 @@
 # Redhat OpenShift Certification
 ### Why Redhat OpenShift Certificaton?
+Red Hat Conatiner Certification assure that an application interoperates with the Red Hat container platform throughout its lifecycle, and is commercially supported by Red Hat and partners. Red Hat does not force any client to certify unless this is a requirement for particular applciation. Client can still run their images on OpenShift (ROKS) cluster, however, you are running at your own risk. Here are some of the benefits:
 1. Applicaton Validation
 2. Application Verification
 3. Collaborative Support
