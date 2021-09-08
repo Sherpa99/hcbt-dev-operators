@@ -1,9 +1,13 @@
 # Redhat OpenShift Certification
 ### Why Redhat OpenShift Certificaton?
-1. Application Automation
-2. Continuous certification
-3. Support Coverage
-4. Partners Benefits
+1. Applicaton Validation
+2. Application Verification
+3. Collaborative Support
+4. Lifecycle Commitment
+5. Marketing Benefit
+6. Application Automation
+7. Continuous Certification
+9. Partners Benefits
    - [Software Acess](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/software-access)
    - [Red Had Ecosystem Catalog](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/about-the-catalog)
    - [Using Red Hat Logos](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/using-red-hat-logos)
