@@ -1,4 +1,4 @@
-# Building Golang Operator
+# Building Golang Operator and RHOS Certification process
 
 ### Pre-requisites
 - [Operator-sdk](https://sdk.operatorframework.io/docs/installation/?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-coursescognitiveclassai-SkillsNetworkCoursesIBMDeveloperSkillsNetworkCO0201ENSkillsNetwork23008840-2021-01-01) v1.5.0+ installed </br>
