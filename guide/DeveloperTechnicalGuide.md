@@ -9,5 +9,5 @@
 * [CertifyOperator](https://github.com/Sherpa99/hcbt-dev-operators/blob/7dfa020699bb5288e8a44db2b0b774e1341cd984/operator/CertifyOperator.md)
 
 ### Step 03 : Build and Certify Operator Bundle Image
-* [BuildOperatorBundle](https://github.com/Sherpa99/hcbt-dev-operators/blob/19856b1ee812c72503bebd92abd99c3de18835ae/operatorbundle/BuildOperatorBundle.md)
-* [CertifyOperatorBundle](https://github.com/Sherpa99/hcbt-dev-operators/blob/896d1af7058d973765d55048ff1100a12d1e4322/operatorbundle/CertifyOperatorBundle.md)
+* [BuildOperatorBundle](operatorbundle/BuildOperatorBundle.md)
+* [CertifyOperatorBundle]()
