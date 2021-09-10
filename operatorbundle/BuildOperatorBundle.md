@@ -1,4 +1,4 @@
-# Build Operator Bundle Image and Certiry
+# Build Operator Bundle Image and Push to Registry
 Prerequisites
 - Login to partner account and create project
 - Install docker in your local environment
