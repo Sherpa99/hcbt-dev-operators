@@ -16,3 +16,4 @@
 * [OLM Operator]()
 * [Catalog Operator]()
 * [Package Server]()
+* [OLM Ref Link RHSO](https://docs.openshift.com/container-platform/4.8/operators/understanding/olm/olm-understanding-olm.html)
