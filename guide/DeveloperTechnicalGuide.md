@@ -1,6 +1,7 @@
 # Build, Push, & Certify Container Image
 
 ### Step 01 : Build and Certify Application Image
+![Screenshot](operator-capability-level.png)
 * [Operator Capability Livel](https://sdk.operatorframework.io/docs/overview/operator-capabilities)
 
 ### Step 02 : Build and Certify Application Image
