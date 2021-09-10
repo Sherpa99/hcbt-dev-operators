@@ -10,4 +10,4 @@
 
 ### Step 03 : Build and Certify Operator Bundle Image
 * [BuildOperatorBundle](../operatorbundle/BuildOperatorBundle.md)
-* [CertifyOperatorBundle]()
+* [CertifyOperatorBundle](../operatorbundle/CertifyOperatorBundle.md)
