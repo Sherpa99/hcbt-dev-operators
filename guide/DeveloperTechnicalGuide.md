@@ -12,7 +12,7 @@
 * [BuildOperatorBundle](https://github.com/Sherpa99/hcbt-dev-operators/blob/0d3c32ff0c4d5d17a3118401caaf5034e9d68e5e/operatorbundle/BuildOperatorBundle.md)
 * [CertifyOperatorBundle](https://github.com/Sherpa99/hcbt-dev-operators/blob/12de71b354d491c3f0cb1fbcc9536322db1557cf/operatorbundle/CertifyOperatorBundle.md)
 
-### Step 04 : Operator Life Cycle Manager (OLM)
+### Step 04 : Operator Life Cycle Manager (OLM) | In Progress
 * [OLM Operator]()
 * [Catalog Operator]()
 * [Package Server]()
