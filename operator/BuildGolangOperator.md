@@ -21,42 +21,26 @@ Make a new directory in hour pc, and `init` a project in it.
       ```console
        cd memcached-operator
       ```
-3. init project 
+3. Intialize the project by calling following commands.
       ```console
        operator-sdk init --domain=example.com --repo=github.com/example/memcached-operator
       ```
-> Note: You might have to skip the version check.</br>
-4. Get controller runtime: </br>
-      ```console
-       go get sigs.k8s.io/controller-runtime@v0.8.3
-      ```
-> Note: your runtime may be with different version.
-5. Update go.mod </br>
-     ```console
-       go mod tidy
-     ```
-6. Run make </br>
-     ```console
-       make
-     ```
-## Step 02 : Create an API    
+## Step 02 : Create an API 
 Use the create command to generate a CRD and a controller
-> Note: The --version flag is for the Kubernetes API version of the operator, not a semantic version. As such, do NOT use . for --version.
 1. Create API: </br>
      ```console
       operator-sdk create api --group cache --version v1alpha1 --kind Memcached --resource=true --controller=true 
      ```
-2. Run Make </br>
-   ```console
-       make
-   ```
-3. Make changes in `api/v1alpha1/memcached_types.go` by replacing both the functions with following code.</br>
+2. Make changes in `api/v1alpha1/memcached_types.go` by replacing both the functions with following code.</br>
  ```console
 // MemcachedSpec defines the desired state of Memcached
 type MemcachedSpec struct {
-	// +kubebuilder:validation:Minimum=0
-	// Size is the size of the memcached deployment
-	Size int32 `json:"size"`
+	// INSERT ADDITIONAL SPEC FIELDS - desired state of cluster
+	// Important: Run "make" to regenerate code after modifying this file
+
+	// Foo is an example field of Memcached. Edit memcached_types.go to remove/update
+	Foo  string `json:"foo,omitempty"`
+	Size int32  `json:"size"`
 }
 
 // MemcachedStatus defines the observed state of Memcached
@@ -65,29 +49,17 @@ type MemcachedStatus struct {
 	Nodes []string `json:"nodes"`
 }
  ```
-4. Make changes in ` api/v1alpha1/memcached_types.go` by replacing the function with following code  </br>
- ```console
- // Memcached is the Schema for the memcacheds API
-// +kubebuilder:subresource:status
-type Memcached struct {
-	metav1.TypeMeta   `json:",inline"`
-	metav1.ObjectMeta `json:"metadata,omitempty"`
-
-	Spec   MemcachedSpec   `json:"spec,omitempty"`
-	Status MemcachedStatus `json:"status,omitempty"`
-}
- ```
-5. Run generate commands to implement additional code changes.
+3. Run generate commands to implement additional code changes.
    ```console
       make generate
    ```
-6. Generate YAML manifests for CRD </br>
+4. Generate YAML manifests for CRD </br>
    ```console
       make manifests
    ```
 ## Step 03 : Create a controller
-1. Repalce following `controllers/memcached_controller.go` with following code
-- [Reference implementation](https://github.com/operator-framework/operator-sdk/blob/master/testdata/go/v3/memcached-operator/controllers/memcached_controller.go)
+1. Repalce `controllers/memcached_controller.go` with following code:
+- [Reference implementation](https://github.com/Sherpa99/hcbt-dev-operators/blob/main/limitations/controllers.md)
 > Note: The specifics of implementing the reconcile loop is beyond this tutorial, and will be covered in the advanced module
 2. Re-generate YAML manifests for CRD </br>
    ```console
