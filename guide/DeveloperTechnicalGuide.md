@@ -9,7 +9,7 @@
 * [CertifyContaierImage](https://github.com/Sherpa99/hcbt-dev-operators/blob/896d1af7058d973765d55048ff1100a12d1e4322/container/CertifyContaierImage.md)
 
 ### Step 03 : Build and Certify Operator Image
-* [BuildGolangOperator](https://github.com/Sherpa99/hcbt-dev-operators/blob/896d1af7058d973765d55048ff1100a12d1e4322/operator/BuildGolangOperator.md)
+* [BuildGolangOperator](https://github.com/Sherpa99/hcbt-dev-operators/blob/354b6fbbecb6a8f92a689672ad653230efa4f902/operator/BuildGolangOperator.md)
 * [CertifyOperator](https://github.com/Sherpa99/hcbt-dev-operators/blob/7dfa020699bb5288e8a44db2b0b774e1341cd984/operator/CertifyOperator.md)
 
 ### Step 04 : Build and Certify Operator Bundle Image
