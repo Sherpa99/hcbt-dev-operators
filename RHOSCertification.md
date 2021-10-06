@@ -30,20 +30,20 @@ Step 03 : Developer Techincal Guide
    - [Containers and the Red Hat Universal Base Images (UBI)](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/program-on-boarding/containers-with-red-hat-universal-base-image-ubi)
    - [Search Box for Universal Base Images](https://catalog.redhat.com/software/containers/explore)
 
-Step 03 : Container certification 
+Step 04 : Container certification 
    - [Create a container application project](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-application/creating-a-container-application-project)
    - [The Certification Checklist](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-application/the-certification-checklist)
    - [Upload container image to be in registry.connect.redhat.com](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-application/image-upload)
    - [Upload conatiner image to be published in Third Party Registries](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-application/remote-scan)
    - [Image Scanning & Verification](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-application/image-scan-and-verification)
 
-Step 04 : Operator certification
+Step 05 : Operator certification
    - [Create Container Project](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-operator/creating-an-operator-project/creating-container-project)
    - [The Certification Checklist](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-operator/creating-an-operator-project/the-certification-checklist)
    - [Upload your Operator Image](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-operator/creating-an-operator-project/image-upload)
    - [Image Scanning and Verification](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-operator/creating-an-operator-project/image-scan-and-verification-results)
 
-Step 05 : Operator bundle certification
+Step 06 : Operator bundle certification
    - [Create Operator Bundle Image Project](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-operator/certify-your-operator-bundle-image/creating-operator-bundle-image-project)
    - [The Certification Checklist](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-operator/certify-your-operator-bundle-image/the-certification-checklist)
    - [Upload your Operator Bundle Image](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-operator/certify-your-operator-bundle-image/uploading-your-operator-bundle-image)
