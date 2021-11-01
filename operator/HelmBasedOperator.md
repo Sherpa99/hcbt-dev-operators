@@ -50,18 +50,30 @@ Make a new directory in hour pc, and `init` a project in it.
    ```console
       kubectl get deployment -n wordpress-operator-system
    ```
+   ```console
+      kubectl get pods -n wordpress-operator-system
+   ```
 6. Check the RBAC </br>
    ```console
       kubectl get clusterroles | grep wordpress
    ```  
+   ```console
+      kubectl get clusterrolebindings | grep wordpress
+   ``` 
+   ```console
+      kubectl get roles -n wordpress-operator-system
+   ``` 
+   ```console
+      kubectl get rolebindings -n wordpress-operator-system
+   ``` 
 
 ## Step 03 : Deploy a WordPress Instance
 1. Create a demo WordPress custom resource YAML manifest:
    ```console
       cp config/samples/helm-chart_v1alpha1_wordpress.yaml config/samples/wordpress-demo.yaml
    ```
-   a) Update name: wordpress-sample to name: wordpress-demo </br>
-   b) Change spec.wordpressBlogName to The Demo Blog!. We check this later when the server is running</br>
+   a) Update name: `wordpress-sample` to name: `wordpress-demo` </br>
+   b) Change spec.wordpressBlogName to `The Demo Blog!`. We check this later when the server is running</br>
 > Note: This is equivalent to a [Helm values override](https://helm.sh/docs/chart_template_guide/values_files/?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkCO0201ENSkillsNetwork23008840-2021-01-01)
 2. Create NameSpace called wordpress-demo
    ```console
@@ -71,7 +83,7 @@ Make a new directory in hour pc, and `init` a project in it.
    ```console
       kubectl apply -f config/samples/wordpress-demo.yaml -n wordpress-demo --validate=false
    ```
-> Note: You need to turn off validation (--validate=false) because the WordPress Helm chart uses null values for some defaults, and this can cause the Kubernetes schema validation to fail. This should not be done in production systems
+> Note: You need to turn off validation `(--validate=false)` because the WordPress Helm chart uses null values for some defaults, and this can cause the Kubernetes schema validation to fail. This should not be done in production systems
 4. Verify that WordPress is running
    ```console
       kubectl get pods -n wordpress-demo
