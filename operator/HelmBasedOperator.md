@@ -29,32 +29,28 @@ Make a new directory in hour pc, and `init` a project in it.
       ```
 ## Step 02 : Build and Deploy your operator 
 
-1. Start your minikube in you local machine or login to ROKS cluster: </br>
-     ```console
-     minikube start 
-     ```
-2. Set environment variable for your docker image
+1. Set environment variable for your docker image
    ```console
     export USERNAME=<docker-registry-username>
    ```
-3. Build and push your docker image to external or internal docker registry 
+2. Build and push your docker image to external or internal docker registry 
    ```console
       make docker-build docker-push IMG=docker.io/$USERNAME/wordpress-operator:v1.0.0 
    ```
 > I am using my personal docker registry here.
-4. Deploy the operator</br>
+3. Deploy the operator</br>
    ```console
       make deploy IMG=docker.io/$USERNAME/wordpress-operator:v1.0.0
    ```
-5. Check the CRD</br>
+4. Check the CRD</br>
    ```console
       kubectl get crds | grep wordpress
    ```
-6. Check the controller deployment and pods </br>
+5. Check the controller deployment and pods </br>
    ```console
       kubectl get deployment -n wordpress-operator-system
    ```
-7. Check the RBAC </br>
+6. Check the RBAC </br>
    ```console
       kubectl get clusterroles | grep wordpress
    ```  
