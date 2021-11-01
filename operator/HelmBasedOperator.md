@@ -54,7 +54,7 @@ Make a new directory in hour pc, and `init` a project in it.
    ```console
       kubectl get deployment -n wordpress-operator-system
    ```
-7. Check the controller deployment and pods </br>
+7. Check the RBAC </br>
    ```console
       kubectl get clusterroles | grep wordpress
    ```  
@@ -67,7 +67,7 @@ Make a new directory in hour pc, and `init` a project in it.
    a) Update name: wordpress-sample to name: wordpress-demo </br>
    b) Change spec.wordpressBlogName to The Demo Blog!. We check this later when the server is running</br>
 > Note: This is equivalent to a [Helm values override](https://helm.sh/docs/chart_template_guide/values_files/?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkCO0201ENSkillsNetwork23008840-2021-01-01)
-2. Deploy WordPress
+2. Create NameSpace called wordpress-demo
    ```console
       kubectl create ns wordpress-demo
    ```
