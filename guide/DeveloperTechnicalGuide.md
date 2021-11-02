@@ -15,7 +15,11 @@
 
 ### Step 04 : Build and Certify Operator Bundle Image
 * [Build Operator Bundle](https://github.com/Sherpa99/hcbt-dev-operators/blob/0d3c32ff0c4d5d17a3118401caaf5034e9d68e5e/operatorbundle/BuildOperatorBundle.md)
-* [Certify Operator Bundle](https://github.com/Sherpa99/hcbt-dev-operators/blob/12de71b354d491c3f0cb1fbcc9536322db1557cf/operatorbundle/CertifyOperatorBundle.md)
+* [Old Methog of Certify Operator Bundle](https://github.com/Sherpa99/hcbt-dev-operators/blob/12de71b354d491c3f0cb1fbcc9536322db1557cf/operatorbundle/CertifyOperatorBundle.md)
+> Note: Old method is deprecated
+
+### New Method to certify operator bundle image
+[Certify Operator Bundle](https://github.com/redhat-openshift-ecosystem/certification-releases/blob/main/4.9/ga/operator-cert-workflow.md)
 
 ### Step 05 : Operator Life Cycle Manager (OLM) | In Progress
 * [OLM Operator]()
