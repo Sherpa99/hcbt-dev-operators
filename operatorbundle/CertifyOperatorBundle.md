@@ -1,5 +1,10 @@
 # Push Bundle Image to partner connect portal for certificaiton
 
+
+### New Method to certify operator bundle image
+[Certify Operator Bundle](https://github.com/redhat-openshift-ecosystem/certification-releases/blob/main/4.9/ga/operator-cert-workflow.md)
+
+> Note: Old method is deprecated!
 ### Prerequisites
 * Login to partner account and create project
 
