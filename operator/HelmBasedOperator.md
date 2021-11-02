@@ -113,5 +113,3 @@ Make a new directory in hour pc, and `init` a project in it.
 ```console
    make undeploy
 ```
-[Certify Operator](https://github.com/Sherpa99/hcbt-dev-operators/blob/7dfa020699bb5288e8a44db2b0b774e1341cd984/operator/CertifyOperator.md)
-[Certify Operator Bundle](https://github.com/redhat-openshift-ecosystem/certification-releases/blob/main/4.9/ga/operator-cert-workflow.md)
