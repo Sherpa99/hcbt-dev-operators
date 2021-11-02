@@ -114,8 +114,5 @@ Make a new directory in hour pc, and `init` a project in it.
    make undeploy
 ```
 
-## Step 06 : Red Hat Operator Certification 
-[Operator Certification Process]()
-
-## Step 07 : Build Operator Bundle Image and Certify
-[Operator Certification Process]()
+## Step 05 :Certify Operator Bundle Image
+[Operator Certification Process](https://github.com/redhat-openshift-ecosystem/certification-releases/blob/main/4.9/ga/operator-cert-workflow.md)
